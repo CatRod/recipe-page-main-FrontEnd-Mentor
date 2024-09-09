@@ -1,22 +1,32 @@
 @font-face {
-  font-family: Young;
+  font-family: "Young";
   src: url(https://fonts.google.com/specimen/Young+Serif);
+}
+@font-face {
+  font-family: "Outfit";
+  src: url(https://fonts.google.com/specimen/Outfit);
 }
 
 body {
   background-color: hsl(30, 54%, 90%);
   line-height: 2em;
 }
+
 .container {
   background-color: white;
-  border-radius: 4px;
+  display: block;
+  border-radius: 10px;
   padding: 45px;
-  margin: 85px;
-  max-width: 800px;
+  margin: 85px auto;
+  max-width: 750px;
 }
+
+img {
+  border-radius: 10px;
+}
+
 p {
   font-size: 16px;
-  font-family: sans-serif;
 }
 
 h2 {
@@ -25,18 +35,27 @@ h2 {
 
 h3 {
   color: hsl(332, 51%, 32%);
+  font-size: 22px;
 }
 
 h1,
 h2 {
-  font-family: Young;
-  margin-top: 18px;
+  font-family: "Young";
+  margin-top: 30px;
+}
+
+li {
+  color: hsl(14, 45%, 36%);
+}
+li span {
+  color: black;
 }
 
 .prep-time {
   background-color: hsl(330, 100%, 98%);
   border-radius: 8px;
   padding: 25px;
+  margin-top: 30px;
 }
 
 .value {
