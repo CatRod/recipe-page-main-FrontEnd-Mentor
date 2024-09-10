@@ -23,6 +23,8 @@ body {
 
 img {
   border-radius: 10px;
+  display: block;
+  width: 100%;
 }
 
 p {
@@ -68,4 +70,10 @@ li span {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 25px;
+  }
 }
